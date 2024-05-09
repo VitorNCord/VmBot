@@ -11,6 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 #comando para criar e atualizar executavel(pyinstaller --onefile --ico=icone.ico bot.py.py)
 
+print("Iniciando programa")
 
 total_processo = 100
 # Configurações do Chrome
@@ -107,4 +108,5 @@ def maquina():
                 print("-")
                 print(f"Limite de ({max_tentativas}) tentativas foi atingido. O elemento {pesquisa} não foi encontrado.")
                 print("-")
+
 maquina()
