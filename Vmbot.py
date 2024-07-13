@@ -42,9 +42,9 @@ with tqdm(total=total_processo, desc="Processando") as pbar:
         pbar.update(10)
         driver.get("https://vmpay.vertitecnologia.com.br/nutricar_/tools/products")
         pbar.update(10)
-        email = driver.find_element('xpath', '//*[@id="user_email"]').send_keys('vitor.cordeiro@nutricarbrasil.com.br')
+        email = driver.find_element('xpath', '//*[@id="user_email"]').send_keys('')
         pbar.update(10)
-        senha = driver.find_element('xpath', '//*[@id="user_password"]').send_keys('Nutri@2020')
+        senha = driver.find_element('xpath', '//*[@id="user_password"]').send_keys('')
         pbar.update(10)
         pbar.update(total_processo - pbar.n) # Garante que a barra de progresso chegue a 100%
         
