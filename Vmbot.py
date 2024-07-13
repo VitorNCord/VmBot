@@ -24,8 +24,6 @@ from selenium.webdriver.chrome.service import Service
 #comando para criar e atualizar executavel(pyinstaller --onefile --ico=icone.ico Vmbot.py)
 
 print("Iniciando programa")
-total_processo = 100
-
 
 total_processo = 100
 with tqdm(total=total_processo, desc="Processando") as pbar:        
@@ -72,8 +70,8 @@ def maquina():
             time.sleep(3)
 
     while True:
-        print("Para reiniciar o Progama digite----(1)")
-        print("Para fechar o progama digite-------(2)")
+        print("Para reiniciar o Programa digite----(1)")
+        print("Para fechar o programa digite-------(2)")
         print("")
         pesquisa = input("Digite o Numero da Maquina ou as Opções a cima:")
         print("-")
